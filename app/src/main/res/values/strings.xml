@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="DontClickMe">DontClickMe</string>
+    <string name="warning_message">Warning!! Button Clicked</string>
+</resources>
