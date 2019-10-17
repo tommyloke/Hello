@@ -14,11 +14,14 @@ class MainActivity : AppCompatActivity() {
         //Create the UI
         //R = resources
         setContentView(R.layout.activity_main)
-        //TODO : Continue here
+        //
         //Java int x; vs Kotlin var x : Int
         //val = value and var = variable
         val buttonDontClickMe : Button = findViewById(R.id.ButtonDontClickMe)
         buttonDontClickMe.setOnClickListener{ showMessage() }
+
+        val buttonReset : Button = findViewById(R.id.ButtonReset)
+        buttonReset.setOnClickListener{textViewMessage.setText(getString(R.string.app_name))}
     }
 
     private fun showMessage() {
